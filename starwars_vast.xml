@@ -1,0 +1,160 @@
+<VAST version="3.0">
+    <Ad>
+        <InLine>
+            <AdSystem>AD SYSTEM HERE</AdSystem>
+            <AdTitle>NonRewarded Star Wars Galaxy of Heroes - Test Ad
+            </AdTitle>
+            <Impression>
+                <![CDATA[http://a.applovin.com/ping?type=impression]]></Impression>
+            <Description>NonRewarded Star Wars Galaxy of Heroes - Test Ad
+            </Description>
+            <Advertiser>ADVERTISER HERE</Advertiser>
+            <ViewableImpression id="viewableImpressionId">
+                <Viewable>
+                    <![CDATA[http://a.applovin.com/ping?type=viewable]]></Viewable>
+            </ViewableImpression>
+            <Creatives>
+                <Creative>
+                    <Linear>
+                        <Duration>00:00:15</Duration>
+                        <MediaFiles>
+                            <MediaFile
+                                bitrate="890"
+                                delivery="progressive"
+                                height="576"
+                                type="video/mp4"
+                                width="1024">
+                                <![CDATA[https://img.crossinstall.com/SWGH_ALL_EN_VID_16x9_15s_UA_OctTVSpot.mp4_1024x576.mp4]]></MediaFile>
+                            <MediaFile
+                                bitrate="627"
+                                delivery="progressive"
+                                height="270"
+                                type="video/mp4"
+                                width="480">
+                                <![CDATA[https://img.crossinstall.com/SWGH_ALL_EN_VID_16x9_15s_UA_OctTVSpot.mp4_480x270.mp4]]></MediaFile>
+                            <MediaFile
+                                bitrate="380"
+                                delivery="progressive"
+                                height="180"
+                                type="video/mp4"
+                                width="320">
+                                <![CDATA[https://img.crossinstall.com/SWGH_ALL_EN_VID_16x9_15s_UA_OctTVSpot.mp4_320x180.mp4]]></MediaFile>
+                        </MediaFiles>
+                        <VideoClicks>
+                            <ClickThrough>
+                                <![CDATA[https://apps.apple.com/us/developer/lion-studios/id1362220666]]></ClickThrough>
+                            <ClickTracking>
+                                <![CDATA[http://a.applovin.com/ping?type=clickTracking]]></ClickTracking>
+                        </VideoClicks>
+                        <TrackingEvents>
+                            <Tracking
+                                event="start"
+                                id="startId"
+                                offset="0">
+                                <![CDATA[http://a.applovin.com/ping?type=trackingStart]]></Tracking>
+                            <Tracking
+                                event="firstQuartile"
+                                id="firstQuartileId"
+                                offset="0">
+                                <![CDATA[http://a.applovin.com/ping?type=trackingFirstQuartile]]></Tracking>
+                            <Tracking
+                                event="midpoint"
+                                id="midpointId"
+                                offset="0">
+                                <![CDATA[http://a.applovin.com/ping?type=trackingMidpoint]]></Tracking>
+                            <Tracking
+                                event="thirdQuartile"
+                                id="thirdQuartileId"
+                                offset="0">
+                                <![CDATA[http://a.applovin.com/ping?type=trackingThirdQuartile]]></Tracking>
+                            <Tracking
+                                event="complete"
+                                id="completeId"
+                                offset="0">
+                                <![CDATA[http://a.applovin.com/ping?type=trackingComplete]]></Tracking>
+                            <Tracking
+                                event="progress"
+                                id="progressId"
+                                offset="0">
+                                <![CDATA[http://a.applovin.com/ping?type=trackingProgress]]></Tracking>
+                            <Tracking
+                                event="pause"
+                                id="pauseId"
+                                offset="0">
+                                <![CDATA[http://a.applovin.com/ping?type=trackingPause]]></Tracking>
+                            <Tracking
+                                event="resume"
+                                id="resumeId"
+                                offset="0">
+                                <![CDATA[http://a.applovin.com/ping?type=trackingResume]]></Tracking>
+                        </TrackingEvents>
+                    </Linear>
+                </Creative>
+                <Creative>
+                    <CompanionAds required="any">
+                        <Companion
+                            height="556"
+                            width="960">
+                            <StaticResource creativeType="image/jpeg">
+                                <![CDATA[https://img.crossinstall.com/fcd70d9a8c67c95ba51a5ebc74f551f6.png]]></StaticResource>
+                            <CompanionClickThrough>
+                                <![CDATA[https://apps.apple.com/us/developer/lion-studios/id1362220666]]></CompanionClickThrough>
+                            <CompanionClickTracking>
+                                <![CDATA[http://a.applovin.com/ping?type=companionClickTracking]]></CompanionClickTracking>
+                            <IFrameResource>
+                                <![CDATA[http://a.applovin.com/ping?type=iFrameResource]]></IFrameResource>
+                            <HTMLResource>
+                                <![CDATA[http://a.applovin.com/ping?type=htmlResource]]></HTMLResource>
+                            <TrackingEvents>
+                                <Tracking
+                                    event="pause"
+                                    id="pauseId"
+                                    offset="0">
+                                    <![CDATA[http://a.applovin.com/ping?type=trackingCompanionPause]]></Tracking>
+                                <Tracking
+                                    event="resume"
+                                    id="resumeId"
+                                    offset="0">
+                                    <![CDATA[http://a.applovin.com/ping?type=trackingCompanionResume]]></Tracking>
+                            </TrackingEvents>
+                        </Companion>
+                    </CompanionAds>
+                </Creative>
+            </Creatives>
+            <AdVerifications>
+                <Verification vendor="iabtechlab.com-omid">
+                    <JavaScriptResource apiFramework="omid" browserOptional="true">
+                        <![CDATA[https://s3-us-west-2.amazonaws.com/omsdk-files/compliance-js/omid-validation-verification-script-v1-APPLOVIN-11182021.js]]>
+                    </JavaScriptResource>
+                    <TrackingEvents>
+                        <Tracking event="verificationNotExecuted">
+                            <![CDATA[]]>
+                        </Tracking>
+                    </TrackingEvents>
+                    <VerificationParameters>
+                        <![CDATA["iabtechlab-Applovin"]]>
+                    </VerificationParameters>
+                </Verification>
+            </AdVerifications>
+            <Extensions>
+                <Extension type="AdVerifications">
+                    <AdVerifications>
+                        <Verification vendor="iabtechlab.com-omid">
+                            <JavaScriptResource apiFramework="omid" browserOptional="true">
+                                <![CDATA[https://s3-us-west-2.amazonaws.com/omsdk-files/compliance-js/omid-validation-verification-script-v1-APPLOVIN-11182021.js]]>
+                            </JavaScriptResource>
+                            <TrackingEvents>
+                                <Tracking event="verificationNotExecuted">
+                                    <![CDATA[]]>
+                                </Tracking>
+                            </TrackingEvents>
+                            <VerificationParameters>
+                                <![CDATA["iabtechlab-Applovin"]]>
+                            </VerificationParameters>
+                        </Verification>
+                    </AdVerifications>
+                </Extension>
+            </Extensions>
+        </InLine>
+    </Ad>
+</VAST>
